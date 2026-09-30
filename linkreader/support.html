@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinkReader 支持 / Support</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #e3e3e6;
+    --accent: #5E5CE6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f11;
+      --fg: #ececef;
+      --muted: #9a9aa0;
+      --rule: #2b2b30;
+      --accent: #8b89f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+          "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  h2 {
+    font-size: 1.125rem; margin: 2.5rem 0 .75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .25rem; }
+  p, li { margin: .6rem 0; }
+  ul { padding-left: 1.4rem; }
+  .updated { color: var(--muted); font-size: .9375rem; margin: 0 0 2rem; }
+  .lead { font-size: 1.0625rem; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+  hr.lang {
+    margin: 4rem 0 3rem; border: 0; border-top: 1px solid var(--rule);
+  }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .875rem; }
+  @media (max-width: 480px) { body { padding: 2rem 1rem 4rem; } }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>LinkReader 支持</h1>
+  <p class="updated">最后更新：2026-09-30</p>
+
+  <p class="lead">遇到问题、想提建议，或者想确认某个行为是不是预期内的，都从这里开始。</p>
+
+  <h2>反馈问题</h2>
+  <p>App 没有账号系统，也没有内置的反馈表单，所有问题都走公开的 Issue 列表：</p>
+  <p><a href="https://github.com/milk-Huang/legal/issues">github.com/milk-Huang/legal/issues</a></p>
+  <p>提 Issue 时附上这几项，能省掉一来一回：</p>
+  <ul>
+    <li>iOS 版本与设备型号（设置 → 通用 → 关于本机）</li>
+    <li>复现步骤 —— 从哪一步开始不对</li>
+    <li>如果和某个网站有关，把链接一并贴上</li>
+    <li>截图或录屏</li>
+  </ul>
+
+  <h2>常见问题</h2>
+
+  <h3>需要注册或登录吗？</h3>
+  <p>不需要。所有功能不登录就能用。登录（Sign in with Apple）是可选的，只用于将来的同步，当前版本不登录不影响任何事。</p>
+
+  <h3>收费吗？</h3>
+  <p>当前版本的全部功能免费开放，没有内购，也没有订阅。</p>
+
+  <h3>我的数据存在哪里？</h3>
+  <p>全部存在你自己的设备上，不上传。收藏、文件夹、摘录、阅读进度、历史、快照都在本机数据库里。<strong>删除 App 即删除全部数据</strong>，我们这边没有副本，也没法帮你恢复。</p>
+  <p>想留个备份，用「我的 → 导出」，支持 OPML、JSON、HTML、Markdown 四种格式。</p>
+
+  <h3>从 Safari 分享给 LinkReader，收藏没进来？</h3>
+  <p>分享扩展依赖 App Group 签名在本机把链接交给主 App，签名配置异常时这条链路会断。先试试在 LinkReader 里直接收藏 —— 主 App 内的收藏不受影响。如果只有分享进来的丢，重新安装 App 通常能修好。</p>
+
+  <h3>打开浏览器标签，我正听的音乐断了？</h3>
+  <p>已知问题。打开浏览器标签会激活音频会话，可能打断其他 App 的播放。会修。</p>
+
+  <h3>收藏多了翻不过来？</h3>
+  <p>端上的全文检索和 Spotlight 索引还没做，目前只能靠文件夹、兴趣分区和来源筛选来找。这是接下来的重点之一。</p>
+
+  <h3>没有网络时收藏还能看吗？</h3>
+  <p>能。收藏时会保存一份本地快照，断网后也能打开阅读；如果当时没能取到正文，会退回纯文本。</p>
+
+  <h2>隐私</h2>
+  <p>App 不收集任何数据，也不运营服务器。完整说明见<a href="privacy.html">隐私政策</a>。</p>
+
+  <hr class="lang">
+
+  <div lang="en">
+    <h1>LinkReader Support</h1>
+    <p class="updated">Last updated: 2026-09-30</p>
+
+    <p class="lead">Something broken, something you'd like to see, or just want to know whether a behaviour is expected? Start here.</p>
+
+    <h2>Reporting a problem</h2>
+    <p>The app has no account system and no in-app feedback form, so everything goes through one public issue tracker:</p>
+    <p><a href="https://github.com/milk-Huang/legal/issues">github.com/milk-Huang/legal/issues</a></p>
+    <p>Include these and we can skip a round trip:</p>
+    <ul>
+      <li>iOS version and device model (Settings → General → About)</li>
+      <li>Steps to reproduce — where it first goes wrong</li>
+      <li>The link itself, if the problem is site-specific</li>
+      <li>A screenshot or screen recording</li>
+    </ul>
+
+    <h2>Common questions</h2>
+
+    <h3>Do I need an account?</h3>
+    <p>No. Every feature works without signing in. Sign in with Apple is optional and exists only for future sync — skipping it costs you nothing in this version.</p>
+
+    <h3>Does it cost anything?</h3>
+    <p>Everything in the current version is free. There are no in-app purchases and no subscription.</p>
+
+    <h3>Where is my data stored?</h3>
+    <p>Entirely on your own device, and never uploaded: bookmarks, folders, highlights, reading progress, history, and snapshots all live in a local database. <strong>Deleting the app deletes all of it</strong> — we hold no copy and cannot restore it for you.</p>
+    <p>For a backup, use Profile → Export. OPML, JSON, HTML, and Markdown are all supported.</p>
+
+    <h3>I shared a link from Safari but nothing arrived</h3>
+    <p>The Share Extension hands links to the main app through a local App Group container, and that path breaks when the signing configuration is off. Try saving from inside LinkReader instead — in-app saving is unaffected. If only shared links go missing, reinstalling the app usually clears it up.</p>
+
+    <h3>Opening a browser tab stops my music</h3>
+    <p>A known issue: opening a browser tab activates the audio session, which can interrupt playback from other apps. It's on the list.</p>
+
+    <h3>Too many bookmarks to find anything?</h3>
+    <p>On-device full-text search and Spotlight indexing aren't built yet, so folders, interest sections, and source filters are what you have for now. It's one of the next major pieces of work.</p>
+
+    <h3>Does saved content work offline?</h3>
+    <p>Yes. A local snapshot is saved when you bookmark, so it opens without a network connection. If the article body couldn't be fetched at the time, it falls back to plain text.</p>
+
+    <h2>Privacy</h2>
+    <p>The app collects no data and runs no servers. The full explanation is in the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>
+    LinkReader · <a href="../index.html">协议与支持</a>
+  </footer>
+
+</main>
+</body>
+</html>
